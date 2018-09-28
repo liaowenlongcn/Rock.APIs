@@ -2,9 +2,10 @@
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:10314",
+      "launchUrl": "swagger",
       "sslPort": 0
     }
   },
@@ -20,7 +21,7 @@
     "Core.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values/Get",
+      "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

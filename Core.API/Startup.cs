@@ -59,9 +59,19 @@ namespace Core.API
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "接口文档说明");  
-            });
+            }); 
 
             app.UseMvc();
+
+            #region 设置初始URL路径
+            app.UseStaticFiles();
+            app.Run(ctx =>
+            {
+                ctx.Response.Redirect("/swagger/");
+                return Task.FromResult(0);
+            }); 
+            #endregion
+
         }
     }
 }

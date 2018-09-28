@@ -9,5 +9,10 @@
             头部请求参数
             </summary>
         </member>
+        <member name="M:Core.API.Filter.GlobalHttpHeaderFilter.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Apply
+            </summary> 
+        </member>
     </members>
 </doc>

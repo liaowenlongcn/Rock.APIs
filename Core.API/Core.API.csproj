@@ -8,6 +8,20 @@
     <DocumentationFile>D:\Code\liaowenlongcn\Rock.APIs\Core.API\Core.API.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Core.API.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Core.API.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
