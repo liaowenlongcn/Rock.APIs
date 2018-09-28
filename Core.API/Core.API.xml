@@ -4,6 +4,21 @@
         <name>Core.API</name>
     </assembly>
     <members>
+        <member name="T:Core.API.Controllers.UserController">
+            <summary>
+            用户控制器
+            </summary>
+        </member>
+        <member name="M:Core.API.Controllers.UserController.Save">
+            <summary>
+            保存
+            </summary> 
+        </member>
+        <member name="M:Core.API.Controllers.UserController.Get">
+            <summary>
+            获取
+            </summary> 
+        </member>
         <member name="T:Core.API.Filter.GlobalHttpHeaderFilter">
             <summary>
             头部请求参数
